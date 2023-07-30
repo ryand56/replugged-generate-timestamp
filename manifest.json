@@ -1,0 +1,20 @@
+{
+  "id": "dev.ryand.GenerateTimestamp",
+  "name": "Generate Timestamp",
+  "description": "Generates a timestamp anywhere in a text field.",
+  "author": {
+    "name": "ryand",
+    "discordID": "660292639412846621",
+    "github": "ryand56"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "ryand56/replugged-generate-timestamp"
+  },
+  "license": "MIT",
+  "type": "replugged-plugin",
+  "renderer": "src/index.tsx",
+  "reloadRequired": true,
+  "source": "https://github.com/ryand56/replugged-generate-timestamp"
+}
