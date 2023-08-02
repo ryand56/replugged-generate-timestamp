@@ -21,9 +21,10 @@ function TimestampGenerateModal(props: any): JSX.Element {
         <input
           type="datetime-local"
           value={value}
-          onChange={e => setValue(e.currentTarget.value)}
+          onChange={(e) => setValue(e.currentTarget.value)}
           style={{
-            colorScheme: PreloadedUserSettings?.getCurrentValue().appearance.theme === 2 ? "light" : "dark"
+            colorScheme:
+              PreloadedUserSettings?.getCurrentValue().appearance.theme === 2 ? "light" : "dark",
           }}
         />
       </Modal.ModalContent>
