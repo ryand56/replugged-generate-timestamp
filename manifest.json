@@ -16,6 +16,5 @@
   "type": "replugged-plugin",
   "renderer": "src/index.tsx",
   "reloadRequired": true,
-  "source": "https://github.com/ryand56/replugged-generate-timestamp",
-  "plaintextPatches": "src/plaintextPatches.ts"
+  "source": "https://github.com/ryand56/replugged-generate-timestamp"
 }
